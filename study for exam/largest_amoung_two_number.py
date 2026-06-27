@@ -1,0 +1,11 @@
+num1=45
+
+num2=97
+
+if num1>num2:
+
+    print(num1)
+
+else:
+
+    print(num2)

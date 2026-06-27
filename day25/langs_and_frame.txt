@@ -1,0 +1,20 @@
+Django, Framework
+React, Library
+Angular, Framework
+jQuery, Library
+Ruby on Rails, Framework
+NumPy, Library
+Laravel, Framework
+Pandas, Library
+Vue.js, Framework
+Axios, Library
+Spring Boot, Framework
+Redux, Library
+Flutter, Framework
+Lodash, Library
+Express, Framework
+Scikit-learn, Library
+ASP.NET Core, Framework
+Three.js, Library
+Svelte, Framework
+Keras, Library

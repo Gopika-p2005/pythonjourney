@@ -1,0 +1,6 @@
+def addition(num1,num2):
+
+    print(num1+num2)
+
+addition(200,500)
+addition(100,50)

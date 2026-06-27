@@ -1,0 +1,5 @@
+words=["hai","hello","hai","hello"]
+
+word_dict={w:words.count(w) for w in words}
+
+print(word_dict)

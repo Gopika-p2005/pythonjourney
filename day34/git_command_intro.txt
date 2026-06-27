@@ -1,0 +1,20 @@
+intialization:
+ git init
+
+stage:
+ git add -add
+
+local repostery:
+
+ git commit -m "commit message"
+
+configration list:
+
+ git config --list
+
+user name:
+
+ git config --global user.name "your name"
+
+user email:
+ git config --global user.email "email"

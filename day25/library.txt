@@ -1,0 +1,10 @@
+React
+jQuery
+NumPy
+Pandas
+Axios
+Redux
+Lodash
+Scikit-learn
+Three.js
+Keras

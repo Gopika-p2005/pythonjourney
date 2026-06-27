@@ -1,0 +1,124 @@
+# query for listing all databases
+
+ mysql=>show databases ;
+
+# query for creating a new database
+
+ mysql=>create database database_name
+
+ eg:
+
+ mysql=>create database sellit_db ;
+
+# query for switch into database
+
+ mysql=>use database_name
+
+ eg:
+
+ mysql=> use sellit_db ;
+
+# query for creating table
+
+ mysql=> create table table_name(
+
+    column_name data_type constraints key,
+    column_name data_type constraints ,
+    column_name data_type constraints ,
+    column_name data_type constraints ,
+    column_name data_type constraints ,
+    column_name data_type constraints ,
+ );
+
+ eg:
+
+ mysql=> create table vehicle(
+
+    id int auto increment PRIMARY KEY,
+    name varchar(200) not null,
+    price decimal(10,2),not null
+    model
+ );
+
+# describe table
+
+ mysql=>desc vehicle;
+
+# query for inserting records
+
+ maysql=>insert into table_name (column1,column2,............)values(val1,val2,val3)
+
+ eg:
+
+ insert into vehicle(name,price,model,fuel_type,running_km,location,contact,owner_type)values("activa",3000,2010,"petrol",....)
+
+
+# display first_name,email from employee
+
+ select first_name and salary of all employee
+
+# display firstname and salary of all employee
+
+ select first_name,salary from employee;
+
+#select with where clause( where -use for apply condition)
+
+ # display records of employee whose salary > 70000
+
+   select * from employee where salary > 70000;
+
+# display employee whose job_title = developer
+
+ select * from employee where job_title ="Developer";
+
+# and or not
+
+ # display Manager whose salary > 70000
+
+  select * from employee where job_title = "Manager" and salary >70000;
+
+ # display employee details where job_title either Manager or Developer
+
+ select * feom employee where job_title ="manager" or job_title="developer";
+
+
+# display job_title (cannot duplicat)
+
+ select distinct job_title from employee;
+
+# display employee whose job_title not equal to Manager
+
+ select * from employee where job_title!="Manager";
+
+#============ order_by,limit,offset==================
+ order_by= sort()
+
+ limit()
+
+ offset=>skip
+
+# like
+
+ %word% use athil ee word indo nne
+
+ letter% use starting aa letter thudagan
+ select * from table name where column_name like"letter%"
+
+ %letter ending
+ 
+# ======== between , in ================
+
+
+
+# aggregative
+ min
+ max
+ sum
+ avg 
+ count
+
+# group by 
+  where clause nne pagaram = having
+
+
+

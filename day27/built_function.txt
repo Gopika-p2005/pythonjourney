@@ -1,0 +1,43 @@
+Input and OutputFunctions
+==============================
+
+input()
+print()
+
+
+Type Conversion Functions
+==============================
+
+int()
+float()
+str()
+list()
+set()
+dict()
+tuple()
+
+
+Mathematical Functions
+============================
+
+sum()
+min()
+max()
+pow()
+abs()
+round()
+
+
+Sequence
+===========
+
+len()
+enumerate()
+range()
+
+
+Logical Functions
+=====================
+
+any()
+all()
