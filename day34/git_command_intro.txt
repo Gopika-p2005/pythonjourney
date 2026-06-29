@@ -4,6 +4,9 @@ intialization:
 stage:
  git add -add
 
+ git add -A
+
+
 local repostery:
 
  git commit -m "commit message"
@@ -18,3 +21,9 @@ user name:
 
 user email:
  git config --global user.email "email"
+
+
+git hub:
+
+ git remote add name path
+
